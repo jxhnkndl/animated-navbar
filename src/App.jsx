@@ -1,19 +1,20 @@
-import Hero from "./components/Hero"
-import FromBottom from "./components/FromBottom"
-import FromLeft from "./components/FromLeft"
-import FromRight from "./components/FromRight"
-
+import Hero from './components/Hero';
+import FromBottom from './components/FromBottom';
+import FromLeft from './components/FromLeft';
+import FromRight from './components/FromRight';
+import FromLeftPartial from './components/FromLeftPartial';
 
 function App() {
   return (
-    <div className="">
+    <div>
       {/* <FromBottom /> */}
       {/* <FromTop /> */}
+      {/* <FromRight /> */}
       {/* <FromLeft /> */}
-      <FromRight />
+      <FromLeftPartial />
       <Hero />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
