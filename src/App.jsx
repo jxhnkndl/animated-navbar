@@ -1,7 +1,11 @@
+import Hero from "./components/Hero"
+import FromBottom from "./components/FromBottom"
+
 function App() {
   return (
-    <div className="mt-10">
-      <h1 className="text-5xl text-center">ANIMATION STATION</h1>
+    <div className="">
+      <FromBottom />
+      <Hero />
     </div>
   )
 }
