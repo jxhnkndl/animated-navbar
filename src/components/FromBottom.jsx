@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function FromBottom() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
