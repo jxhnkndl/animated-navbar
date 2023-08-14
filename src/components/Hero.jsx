@@ -3,7 +3,7 @@ import HeroImage from '../assets/hero-image.jpeg';
 export default function Hero() {
   return (
     <div
-      className="h-[50vh] md:min-h-screen"
+      className="min-h-screen"
       style={{
         backgroundImage: `url(${HeroImage})`,
         backgroundRepeat: 'no-repeat',
