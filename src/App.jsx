@@ -1,12 +1,16 @@
 import Hero from "./components/Hero"
 import FromBottom from "./components/FromBottom"
-import FromTop from "./components/FromTop"
+import FromLeft from "./components/FromLeft"
+import FromRight from "./components/FromRight"
+
 
 function App() {
   return (
     <div className="">
       {/* <FromBottom /> */}
-      <FromTop />
+      {/* <FromTop /> */}
+      {/* <FromLeft /> */}
+      <FromRight />
       <Hero />
     </div>
   )
