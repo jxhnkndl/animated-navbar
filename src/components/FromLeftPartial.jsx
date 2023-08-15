@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Logo from '../assets/logo.svg';
 
 export default function FromLeftPartial() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function FromLeftPartial() {
         <p
           className={`text-3xl font-bold text-stone-100 ${isOpen && 'hidden'}`}
         >
-          KNDL
+          <img src={Logo} className='text-stone-100 w-44 md:w-64 '/>
         </p>
 
         <div
